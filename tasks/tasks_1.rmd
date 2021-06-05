@@ -8,7 +8,7 @@ output:
     latex_engine: xelatex
     template: svm-latex-syllabus.tex
 geometry: margin=1in
-title: "**Course Syllabus: ---**"
+title: "**------**"
 author: Dr. Martín Lozano.
 date: "Last compiled on: `r format(Sys.time(), '%d/%m/%Y, %H:%M:%S')`."
 toc: true
