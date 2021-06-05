@@ -113,7 +113,7 @@ print(xtable(df, caption = "This is the table caption", label = "tab:tab1"),
 
 You can reference this table as follows: Table \ref{tab:tab1}.
 
-## Generate a table using `kable`
+## Generate a table using `kable`.
 
 ```{r anothertable, echo=TRUE}
 df = data.frame(ID = 1:3, code = letters[1:3])
