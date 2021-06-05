@@ -38,11 +38,11 @@ knitr::opts_chunk$set(warning=FALSE, message=FALSE)
 knitr::opts_chunk$set(fig.pos = "H", out.extra = "")
 ```
 
-## RStudio. ![](Rstudio.png)
+## Task 1: RStudio. ![](Rstudio.png)
 
 The problem is the following. The RStudio.png picture is too big in the PDF document. The current code produces a PDF file using the original picture size and there is no error message at all. The error messages arises when we try to reduce the size of the picture. Try to reduce the size of the picture by using code or additional instructions. The objective is to get a reasonable size of the picture in the subtitle above. The alternative of re-sizing the png file using a different software is not a viable option. This rmd file uses a tex template, that may influence the solution of this problem. 
 
-## A math problem.
+## Task 2: A math problem.
 
 Demonstrate whether the following equation is true:
 ```{=tex}
