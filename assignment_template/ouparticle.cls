@@ -20,6 +20,8 @@
 \RequirePackage[left=1in,right=1in,top=1in,bottom=1in]{geometry}
 \usepackage{xspace,amscd,rotating,latexsym,multicol,array,algorithm,subfigure}
 \usepackage[hyphens,obeyspaces]{url}
+%\usepackage[hidelinks]{hyperref}
+\usepackage[colorlinks=true, linkcolor=blue, urlcolor=blue]{hyperref}
 
 \let\@abstract\relax
 \long\gdef\abstract#1{{\gdef\@abstract{%

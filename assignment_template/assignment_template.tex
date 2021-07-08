@@ -93,7 +93,7 @@
 
 \begin{document}
 
-\title{Template for homework assignment reports}
+\title{\textbf{Homework assignment title.}}
 
 \author{%
 \name{Paco de Lucía}\address{778899}
@@ -102,20 +102,23 @@
 \and
 \name{Chick Corea}\address{884422}
 \and
-\name{An alternative for big teams, all in one line - Chick Corea
-(884422), Baby Yoda (774455), Paco de Lucía (778899), Suzanne Ciani
-(365411), and others.}
+\name{An alternative for big teams - Chick Corea (884422), Baby Yoda
+(774455), Paco de Lucía (778899), Suzanne Ciani (365411), Alan Turing
+(312511) and others.}
 }
 
-\abstract{Summary of main findings and conclusions.}
+\abstract{Summary of main findings and conclusions. Optional section.}
 
-\date{Last compiled on: 05/06/2021, 06:53:43.}
+\date{Last compiled on: 07/07/2021, 23:09:08.}
 
-\keywords{quantitative finance; financial risk; financial modeling in R}
+\keywords{quantitative finance; financial risk; financial modeling in
+R; Optional section.}
 
 \maketitle
 
 
+
+\hypersetup{linkcolor=blue}
 
 \hypertarget{introduction.}{%
 \section{Introduction.}\label{introduction.}}
@@ -123,17 +126,27 @@
 \emph{Look how you can add web links in the following sentence}. This
 template is based on the generic OUP template available
 \href{https://academic.oup.com/icesjms/pages/General_Instructions}{here}.
-\emph{Now, look how you can add a different font, this is useful for
-file or function names} The original OUP sample tex document, providing
-more details on preferred formatting for LaTeX documents, is included
-with the template in the file \texttt{ouparticle\_sample.tex}.
+\textbf{Now, look how you can add a different font}. This is useful for
+\texttt{file} or \texttt{function names}. The original OUP sample tex
+document, providing more details on preferred formatting for LaTeX
+documents, is included with the template in the file
+\texttt{ouparticle\_sample.tex}.
 
 Here are some sample references. \emph{Reference in brackets as in a
-list} Please see (Hull 2015; Carhart 1997) for a full discussion of
-multi-factor models. Bibliography will appear at the end of the
-document. \emph{Second, without brackets, separated by a comma} See Hull
-(2015), Cochrane (2009) for a formal demonstration of analytical
-results, and (Carhart 1997; Cochrane 1996) for some empirical results.
+list.} Please see (\protect\hyperlink{ref-Hull}{Hull 2015a};
+\protect\hyperlink{ref-carhart1997persistence}{Carhart 1997}) for a full
+discussion of multi-factor models. Bibliography will appear at the end
+of the document. \emph{Second, without brackets, separated by a comma.}
+See \protect\hyperlink{ref-Hull}{Hull}
+(\protect\hyperlink{ref-Hull}{2015a}),
+\protect\hyperlink{ref-Hull2}{Hull}
+(\protect\hyperlink{ref-Hull2}{2015b}),
+\protect\hyperlink{ref-cochrane2009asset}{Cochrane}
+(\protect\hyperlink{ref-cochrane2009asset}{2009}) for a formal
+demonstration of analytical results, and
+(\protect\hyperlink{ref-carhart1997persistence}{Carhart 1997};
+\protect\hyperlink{ref-cochrane1996cross}{Cochrane 1996}) for some
+empirical results.
 
 \hypertarget{methodology.}{%
 \section{Methodology.}\label{methodology.}}
@@ -187,15 +200,16 @@ A bullet list:
   Second point
 \end{itemize}
 
-\hypertarget{results}{%
-\section{Results}\label{results}}
+\hypertarget{results.}{%
+\section{Results.}\label{results.}}
 
 \hypertarget{generate-a-figure.}{%
 \subsection{Generate a figure.}\label{generate-a-figure.}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{plot}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{10}\NormalTok{, }\AttributeTok{main =} \StringTok{"Some data"}\NormalTok{, }\AttributeTok{xlab =} \StringTok{"Distance (cm)"}\NormalTok{, }\AttributeTok{ylab =} \StringTok{"Time (hours)"}\NormalTok{)}
+\FunctionTok{plot}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{10}\NormalTok{, }\AttributeTok{main =} \StringTok{"Some data"}\NormalTok{, }\AttributeTok{xlab =} \StringTok{"Distance (cm)"}\NormalTok{, }
+     \AttributeTok{ylab =} \StringTok{"Time (hours)"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -207,7 +221,8 @@ You can reference this figure as follows: Fig. \ref{fig:fig1}.
 
 \begin{Shaded}
 \begin{Highlighting}[]
-\FunctionTok{plot}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{, }\AttributeTok{main =} \StringTok{"Some data"}\NormalTok{, }\AttributeTok{xlab =} \StringTok{"Distance (cm)"}\NormalTok{, }\AttributeTok{ylab =} \StringTok{"Time (hours)"}\NormalTok{)}
+\FunctionTok{plot}\NormalTok{(}\DecValTok{1}\SpecialCharTok{:}\DecValTok{5}\NormalTok{, }\AttributeTok{pch =} \DecValTok{19}\NormalTok{, }\AttributeTok{main =} \StringTok{"Some data"}\NormalTok{, }\AttributeTok{xlab =} \StringTok{"Distance (cm)"}\NormalTok{, }
+     \AttributeTok{ylab =} \StringTok{"Time (hours)"}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -217,9 +232,9 @@ You can reference this figure as follows: Fig. \ref{fig:fig1}.
 
 Reference to second figure: Fig. \ref{fig:fig2}
 
-\hypertarget{generate-a-table-using-xtable}{%
+\hypertarget{generate-a-table-using-xtable.}{%
 \subsection{\texorpdfstring{Generate a table using
-\texttt{xtable}}{Generate a table using xtable}}\label{generate-a-table-using-xtable}}
+\texttt{xtable}.}{Generate a table using xtable.}}\label{generate-a-table-using-xtable.}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -227,8 +242,8 @@ Reference to second figure: Fig. \ref{fig:fig2}
 
 \CommentTok{\# Creates tables that follow OUP guidelines using xtable}
 \FunctionTok{library}\NormalTok{(xtable) }
-\FunctionTok{print}\NormalTok{(}\FunctionTok{xtable}\NormalTok{(df, }\AttributeTok{caption =} \StringTok{"This is the table caption"}\NormalTok{, }\AttributeTok{label =} \StringTok{"tab:tab1"}\NormalTok{),}
-      \AttributeTok{comment =} \ConstantTok{FALSE}\NormalTok{)}
+\FunctionTok{print}\NormalTok{(}\FunctionTok{xtable}\NormalTok{(df, }\AttributeTok{caption =} \StringTok{"This is the table caption"}\NormalTok{, }
+             \AttributeTok{label =} \StringTok{"tab:tab1"}\NormalTok{), }\AttributeTok{comment =} \ConstantTok{FALSE}\NormalTok{)}
 \end{Highlighting}
 \end{Shaded}
 
@@ -249,9 +264,9 @@ Reference to second figure: Fig. \ref{fig:fig2}
 
 You can reference this table as follows: Table \ref{tab:tab1}.
 
-\hypertarget{generate-a-table-using-kable}{%
+\hypertarget{generate-a-table-using-kable.}{%
 \subsection{\texorpdfstring{Generate a table using
-\texttt{kable}}{Generate a table using kable}}\label{generate-a-table-using-kable}}
+\texttt{kable}.}{Generate a table using kable.}}\label{generate-a-table-using-kable.}}
 
 \begin{Shaded}
 \begin{Highlighting}[]
@@ -280,8 +295,8 @@ ID & code\\
 
 You can reference this table as follows: Table \ref{tab:tab2}.
 
-\hypertarget{discussion.}{%
-\section{Discussion.}\label{discussion.}}
+\hypertarget{conclusion.}{%
+\section{Conclusion.}\label{conclusion.}}
 
 You can cross-reference sections and subsections as follows: Section
 \ref{methodology.} and Section \ref{a-subsection.}.
@@ -309,7 +324,11 @@ Asset Pricing Model.''} \emph{Journal of Political Economy} 104 (3):
 university press.
 
 \leavevmode\hypertarget{ref-Hull}{}%
-Hull, John C. 2015. \emph{Options, Futures, and Other Derivatives}. 9th
+Hull, John C. 2015a. \emph{Options, Futures, and Other Derivatives}. 9th
+ed. Prentice Hall.
+
+\leavevmode\hypertarget{ref-Hull2}{}%
+---------. 2015b. \emph{Options, Futures, and Other Derivatives}. 9th
 ed. Prentice Hall.
 
 \end{CSLReferences}
