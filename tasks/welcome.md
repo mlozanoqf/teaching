@@ -39,6 +39,20 @@ Misión de la Escuela de Negocios:
 
 ---
 
+<!-- .slide: data-background="https://i.imgur.com/8rWMxe4.jpg" data-background-color="#0E0047" data-background-opacity="0.5"-->
+<!-- .slide: data-transition="concave" -->
+
+<div style="margin-left:-100px; margin-top:0px; width:1150px">
+
+## Objectives.
+
+* **Today.** You should understand the main aspects of this course as well as my expectations about you.
+* **Semester.** You will learn the subject by understanding key financial economics concepts and apply cuttig edge quantitative models in R to boost financial analysis and unleash your own potential as an innovate and world-class business professional.
+
+*What about your expectations?*
+
+---
+
 <!-- .slide: data-background="https://i.imgur.com/M2lCepI.jpg" data-background-color="#0E0047" data-background-opacity="0.5"-->
 <!-- .slide: data-transition="concave" -->
 
@@ -182,7 +196,7 @@ Misión de la Escuela de Negocios:
 * This is a collaboration not a competition :relieved:
 * Study hard because my expectations are high :muscle:
 * See more recommendations in the syllabus :eyes:
-* PEF? :bell:
+* Are you enrolled in PEF 1? :bell:
 
 ---
 
@@ -219,17 +233,17 @@ while (learn == FALSE) {
 
 ## Learning resources.
 
-* Professor. Remember I can help.
-* Class sessions. Recordings available for you.
-* Audio files. I explain a few topics with my *melodic voice*.
-* Discussion forums. Asynchronous interaction.
-* Email. <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a>
-* Meetings. Individual or group online meetings.
-* Books. Available in PDF.
-* Tutorials. Witten by myself.
-* Others.
+* **Professor.** Remember I can help.
+* **Class sessions.** Recordings available for you.
+* **Audio files.** I explain a few topics with my *melodic voice*.
+* **Discussion forums.** Asynchronous interaction.
+* **Email.** <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a>
+* **Meetings.** Individual or group 30 min. online meetings.
+* **Books.** Available in PDF for your convenience.
+* **Tutorials.** I explain how to do financial economics in R.
+* **Others.**
 
-See the syllabus for more details.
+*See the syllabus for more details.*
 
 ---
 
@@ -239,14 +253,14 @@ See the syllabus for more details.
 <!-- .slide: data-transition="concave" -->
 
 ## Learning activities.
-* 40% Exams $E_1, E_2$.
-* 30% Final exam $E_F$. 
-* 30% Homework assignments $H_1, H_2$.
-* Datacamp. Extra marks over the final mark.
-* Stickers. Five marks over the next exam.
-* Non-graded. Discussion forums, videos.
+* **Exams.** $E_1 + E_2 = 40\%$.
+* **Final exam.** $E_F = 30\%$. 
+* **Homework assignments.** $H_1 + H_2 = 30\%$.
+* **Datacamp.** Extra marks over the final mark.
+* **Stickers.** Five marks over the next exam.
+* **Non-graded.** Discussion forums and videos.
 
-See the syllabus for more details.
+*See the syllabus for more details.*
 
 ---
 
@@ -269,7 +283,7 @@ fun <- function(AC, Hm) { # AC is auto & coevaluation, Hm is the group mark.
   else {H <- min(mean(AC), Hm) } # Free-riders are penalized.
   H }
 ```
-See the syllabus for more details.
+*See the syllabus for more details.*
 
 ---
 
@@ -298,14 +312,18 @@ See the syllabus for more details.
 <div style="margin-left:-100px; margin-top:0px; width:1150px">
 <!-- .slide: data-transition="concave" -->
 
+<!-- .slide: style="font-size: 32px;" -->
+
 ## My education.
 
-* Post Doc in Finance. The University of Manchester.
-* PhD in Quantitative Finance. The University of the Basque Country.
-* *Doctor Europaeus* mention. European universities. 
-* Seven postgraduate degrees in Statistical Learning, Data Mining, Scientific Analysis of Data, Statistical Methods, Applied Statistics, Finance, and Quantitative Finance. 
-* BS in Economics.
-* Professional training in data science. The Alan Turing Institute, Strathclyde Business School, among others.
+* **Post Doc in Finance.** The University of Manchester.
+* **PhD in Quantitative Finance.** The University of the Basque Country.
+* **Doctor Europaeus.** Manchester Business School; University of Edinburgh; Humboldt University; Aarhus University; University of Vienna; Dublin City University; Queen Mary, University of London; University of St. Gallen.
+* **5 postgraduate degrees:** Statistical Learning; Data Mining; Scientific Analysis of Data; Statistical Methods; Applied Statistics. UNED.
+* **MSc in Quantitative Finance.** Universidad Complutense de Madrid.
+* **MSc in Finance.** EGADE Business School.
+* **BS in Economics.** Tec de Monterrey.
+* **Professional training in data science.** The Alan Turing Institute, Strathclyde Business School, among others.
 
 ----
 
@@ -341,10 +359,9 @@ See the syllabus for more details.
 
 :slightly_smiling_face:
 
-<a href='mailto:martin.lozano@udem.edu' style='color: orange;'>martin.lozano@udem.edu</a>
-
-* <a href="https://github.com/mlozanoqf" style="color: orange;">https://github.com/mlozanoqf</a>
-* <a href="https://sites.google.com/site/mlozanoqf" style="color: orange;">https://sites.google.com/site/mlozanoqf</a>
+* <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a>
+* <a href="https://github.com/mlozanoqf" style="color: orange;">`https://github.com/mlozanoqf`</a>
+* <a href="https://sites.google.com/site/mlozanoqf" style="color: orange;">`https://sites.google.com/site/mlozanoqf`</a>
 
 <div style="text-align: right"> Fall 2021 </div>
 
