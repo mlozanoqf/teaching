@@ -13,15 +13,13 @@ slideOptions:
 <!-- .slide: data-transition="concave" -->
 <div style="margin-left:-100px; margin-top:0px; width:1150px">
 
-# Welcome to the class!
+## Welcome to the class! 
 
-## Dr. Martín Lozano.
+Dr. Martín Lozano <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a> 
 
-:slightly_smiling_face:
+:slightly_smiling_face: 
 
-* <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a>
-* <a href="https://github.com/mlozanoqf" style="color: orange;">`https://github.com/mlozanoqf`</a>
-* <a href="https://sites.google.com/site/mlozanoqf" style="color: orange;">`https://sites.google.com/site/mlozanoqf`</a>
+![](https://i.imgur.com/6vNWYxY.png =300x300)
 
 <div style="text-align: right"> Fall 2021 </div>
 
@@ -241,7 +239,7 @@ while (learn == FALSE) {
 * **Meetings.** Individual or group 30 min. online meetings.
 * **Books.** Available in PDF for your convenience.
 * **Tutorials.** I explain how to do financial economics in R.
-* **Others.**
+* **Others.** Valuable Internet resources.
 
 *See the syllabus for more details.*
 
@@ -353,15 +351,13 @@ fun <- function(AC, Hm) { # AC is auto & coevaluation, Hm is the group mark.
 <!-- .slide: data-transition="concave" -->
 <div style="margin-left:-100px; margin-top:0px; width:1150px">
 
-# Welcome to the class!
+## Welcome to the class! 
 
-## Dr. Martín Lozano.
+Dr. Martín Lozano <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a> 
 
-:slightly_smiling_face:
+:slightly_smiling_face: 
 
-* <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a>
-* <a href="https://github.com/mlozanoqf" style="color: orange;">`https://github.com/mlozanoqf`</a>
-* <a href="https://sites.google.com/site/mlozanoqf" style="color: orange;">`https://sites.google.com/site/mlozanoqf`</a>
+![](https://i.imgur.com/6vNWYxY.png =300x300)
 
 <div style="text-align: right"> Fall 2021 </div>
 
