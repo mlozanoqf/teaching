@@ -165,6 +165,8 @@ Misión de la Escuela de Negocios:
 ## MPA References:
 
 * Michael Parkin. *Microeconomía. Versión para Latinoamérica*, 9th edición. 13. Pearson Education, 2010.
+* Federal Reserve Bank of St. Louis teaching resources.
+* Khan Academy teaching resources.
 
 ---
 
@@ -333,8 +335,8 @@ fun <- function(AC, Hm) { # AC is auto & coevaluation, Hm is the group mark.
 ## My free time.
 
 * I love art. I enjoy playing my Yamaha digital piano. I used to be an active keyboardist, piano player, and orchestra director.
-* My top painters: Velázquez, Goya, Dalí, Picasso, Tamayo among others. 
-* My top musicians: Chick Corea, Wynton Marsalis, Paco de Lucía, Dave Brubeck, George Gershwin, Leonard Bernstein, among others.
+* **My top painters.** Velázquez, Goya, Dalí, Picasso, Tamayo among others. 
+* **My top musicians.** Chick Corea, Wynton Marsalis, Paco de Lucía, Dave Brubeck, George Gershwin, Leonard Bernstein, among others.
 
 ---
 
