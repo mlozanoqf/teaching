@@ -189,7 +189,6 @@ Misión de la Escuela de Negocios:
 ## Advice & comments.
 
 * First time in one of my courses? Enrolled in two? :heavy_check_mark:
-* R, RStudio, Rmarkdown, Datacamp, LaTeX, GitHub :computer:
 * Contact me if you need: <a href='mailto:martin.lozano@udem.edu' style='color: orange;'>`martin.lozano@udem.edu`</a> :email:
 * Are you receiving my emails? Am I in your spam list? :wastebasket:
 * Avoid frustration and other negative feelings :rage:
@@ -197,6 +196,26 @@ Misión de la Escuela de Negocios:
 * Study hard because my expectations are high :muscle:
 * See more recommendations in the syllabus :eyes:
 * Are you enrolled in PEF 1? :bell:
+
+---
+
+<!-- .slide: data-background="https://i.imgur.com/8rWMxe4.jpg" data-background-color="#0E0047" data-background-opacity="0.5"-->
+
+<div style="margin-left:-100px; margin-top:0px; width:1150px">
+<!-- .slide: data-transition="concave" -->
+
+### **R, RStudio, Git, GitHub, LaTeX, Rmarkdown.**
+
+* It is an industry requirement around the world.
+* Participate in the fourth industrial revolution.
+* Access to interesting jobs in economics and finance.
+* Differentiate with respect to other business careers.
+* Actively participte in the FinTech industry.
+* Coding improves problem solving & analytical thinking. 
+* Aligned with the 17 UN Sustainable Development Goals.
+* Boosts competitiveness and efficiency.
+* Evolve from a final user to a junior software developer.
+* Because finance is about data.
 
 ---
 
